@@ -32,5 +32,5 @@ reg max_attendance_scaled rainy pct_rep votes_rep votes_dem pop_pct_totalvote lo
 
 reg avg_attendance_scaled rainfall pct_rep votes_rep votes_dem pop_pct_totalvote log_median_income pop_pct_white pop_pct_black pop_pct_hispanic pop_pct_immigrant if year==2008
 
-reg avg_attendance_scaled rainy pct_rep votes_rep votes_dem pop_pct_totalvote log_median_income pop_pct_white pop_pct_black pop_pct_hispanic pop_pct_immigrant if avg_attendance!=. & year==2008
+reg avg_attendance_scaled rainy pct_rep votes_rep votes_dem pop_pct_totalvote log_median_income pop_pct_white pop_pct_black pop_pct_hispanic pop_pct_rural if avg_attendance!=. & year==2008
 
