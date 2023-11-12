@@ -12,7 +12,7 @@ use "/Users/laurelkrovetz/Dropbox/data_clean/merged_data_wide.dta", clear
 replace pop_pct_rural = pop_pct_rural*100
 
 // rainfall comparison
-ttest rainfall if year==2010, by(rainy) reverse
+ttest rainfall, by(rainy) reverse
 
 //election 2008
 ttest pct_rep2008, by(rainy) reverse
