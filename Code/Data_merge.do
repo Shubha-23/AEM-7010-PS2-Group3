@@ -156,6 +156,7 @@ foreach i in 2006 2008 2010 {
 
 }
 
+gen vote_share_rep2010 = (votes_rep2010 / totalvote2010)
 
 gen pop_pct_rural = (Total_population_rural_2000)/Total_population_2000
 gen pop_pct_immigrant = (Immigrant/Total_population)*100
