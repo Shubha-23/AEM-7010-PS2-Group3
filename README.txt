@@ -14,6 +14,9 @@ Code: The code folder includes all STATA do-files needed to complete the replica
 • Data_merge.do: code for merging weather, census, House election, and tea party rally datasets
 • table i replication.do: code for replicating table I
 • table iii replication.do: code for replicating table III
+• Replication_6 replaicates table 6 from the paper 
+• Exclusion restiction includes the additional piece of analysis to validate the exclusion restiction of the instrument.
+
 
 AEM 7010 PS2 Part 2: this is the PDF submission which includes all replicated figures and tables as well as responses to questions of the assignment
 
